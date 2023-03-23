@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "MyNote"
+authors = [{name = "lolojia", email = "717843431@qq.com"}]
+dynamic = ["version", "description"]
